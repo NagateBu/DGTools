@@ -1,10 +1,10 @@
 {
-  "name": "datagearTools",
-  "version": "0.0.3",
-  "description": "",
+  "name": "dgtools",
+  "version": "0.0.4",
+  "description": "datagear plugins tools",
   "main": "lib/index.js",
   "bin": {
-    "tools": "lib/index.js"
+    "DGTools": "lib/index.js"
   },
   "author": "AllenBu",
   "license": "MIT",
@@ -17,5 +17,24 @@
     "rollup": "^3.7.4",
     "rollup-plugin-clear": "^2.0.7",
     "rollup-plugin-copy": "^3.4.0"
-  }
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NagateBu/DGTools.git"
+  },
+  "keywords": [
+    "datagear",
+    "tools"
+  ],
+  "bugs": {
+    "url": "https://github.com/NagateBu/DGTools/issues"
+  },
+  "homepage": "https://github.com/NagateBu/DGTools#readme"
 }
