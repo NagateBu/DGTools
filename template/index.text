@@ -3,7 +3,7 @@ let option = {}
 
 let myEcharts = null;
 
-window.test = {
+window.{{pluginName}} = {
     render: function (chart) {
         console.log("------- render start ------");
 
@@ -25,4 +25,4 @@ window.test = {
 };
 
 
-export default window.xianningMap
+export default window.{{pluginName}}

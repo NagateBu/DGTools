@@ -1,10 +1,10 @@
 {
-  "id": "test",
+  "id": "{{pluginName}}",
   "version": "0.0.1",
   "icons": "icon.png",
-  "nameLabel": "test插件",
+  "nameLabel": "{{pluginLabel}}",
   "dataSigns": [],
   "categories": {
-    "name": "test"
+    "name": "{{pluginType}}"
   }
 }
