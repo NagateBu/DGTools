@@ -1,0 +1,28 @@
+// echarts 的配置
+let option = {}
+
+let myEcharts = null;
+
+window.test = {
+    render: function (chart) {
+        console.log("------- render start ------");
+
+        // 挂载 Echarts 对象
+        const ele = chart.elementJquery();
+        window.$("<div style='width:100%;height:100%;' id='content'/>").appendTo(ele);
+        myEcharts = window.echarts.init(document.getElementById("content"));
+
+        myEcharts.setOption(option);
+
+        console.log("------- render end ------");
+    },
+    update: function (chart, results) {
+        console.log("------- update start --------")
+
+        myEcharts.resize();
+        console.log("------- update end --------")
+    },
+};
+
+
+export default window.xianningMap

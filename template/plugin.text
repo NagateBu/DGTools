@@ -1,0 +1,10 @@
+{
+  "id": "test",
+  "version": "0.0.1",
+  "icons": "icon.png",
+  "nameLabel": "test插件",
+  "dataSigns": [],
+  "categories": {
+    "name": "test"
+  }
+}
